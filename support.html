@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prior — Support</title>
+<style>
+  :root { color-scheme: light dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 48px 24px 80px;
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: #1c1b1a; background: #faf9f7; -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 660px; margin: 0 auto; }
+  h1 { font-size: 34px; line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 6px; }
+  .sub { color: #6b6763; margin: 0 0 36px; font-size: 15px; }
+  h2 { font-size: 20px; letter-spacing: -0.01em; margin: 40px 0 14px; }
+  p, li { color: #33302d; }
+  details {
+    border: 1px solid #e2dcd3; border-radius: 12px; padding: 14px 18px;
+    margin: 10px 0; background: #fff;
+  }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { margin: 12px 0 2px; }
+  .cta {
+    display: inline-block; margin: 8px 0 0; padding: 13px 24px;
+    background: #1c1b1a; color: #faf9f7; border-radius: 10px;
+    text-decoration: none; font-weight: 600;
+  }
+  footer { margin-top: 56px; padding-top: 24px; border-top: 1px solid #e2dcd3;
+           color: #6b6763; font-size: 15px; }
+  a { color: #8a6d4a; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #ece9e5; background: #131211; }
+    .sub, footer { color: #98918a; }
+    p, li { color: #d6d1cb; }
+    details { background: #1a1917; border-color: #2c2926; }
+    footer { border-top-color: #2c2926; }
+    a { color: #d9c7b3; }
+    .cta { background: #d9c7b3; color: #131211; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Prior — Support</h1>
+  <p class="sub">Then &amp; Now · Progress photos that line up</p>
+
+  <p>
+    Email <a href="mailto:TechBitsMix@gmail.com">TechBitsMix@gmail.com</a> and
+    you'll get a reply from a person. Please don't attach photographs — describe
+    what happened and include your Prior version from Settings → About.
+  </p>
+  <p><a class="cta" href="mailto:TechBitsMix@gmail.com?subject=Prior%20—%20support">Email support</a></p>
+
+  <h2>Common questions</h2>
+
+  <details>
+    <summary>Why won't it show me any measurements?</summary>
+    <p>
+      Prior refuses to measure when the two photographs are too different for the
+      numbers to mean anything — usually because the lighting changed. It will
+      tell you which check failed. The usual fixes are to shoot in the same place
+      at the same time of day, and to use the ghosted overlay to match your pose.
+    </p>
+    <p>
+      Imported photographs never unlock measurements, because Prior doesn't know
+      what camera or lighting produced them. Take at least two photos inside the
+      app for the same area.
+    </p>
+  </details>
+
+  <details>
+    <summary>The second photo sits too high or too low.</summary>
+    <p>
+      This happens with close crops — a chin or lip shot has no eyes in frame for
+      Prior to anchor to — and with imported photos taken at a very different
+      distance. Open the photo from the timeline and tap <strong>Adjust
+      alignment</strong>. Switch the preview to <strong>Difference</strong> and
+      nudge until the overlap goes dark; that's the two lining up.
+    </p>
+  </details>
+
+  <details>
+    <summary>Are my photos private?</summary>
+    <p>
+      They never enter your camera roll and never leave your phone. Prior makes
+      no network requests at all — there is no account and no server. You can add
+      a Face ID lock in Settings, and Prior covers its own screen in the app
+      switcher so a preview of your face isn't cached outside it.
+    </p>
+  </details>
+
+  <details>
+    <summary>What do the numbers actually mean?</summary>
+    <p>
+      Each is a stated arithmetic quantity measured inside a region and reported
+      as a change from your own earlier photograph — mean a* in CIELAB for
+      redness, ridge response for line structure, spread of lightness for tone
+      evenness, and so on. Tap the metric to see the method written under it.
+    </p>
+    <p>
+      There is no overall score and no grade, deliberately. A single number
+      summarising a face is not a measurement of anything.
+    </p>
+  </details>
+
+  <details>
+    <summary>Can Prior tell me if a treatment worked?</summary>
+    <p>
+      It can tell you what changed between two photographs. It cannot tell you
+      why, and it doesn't try. Prior does not diagnose anything and is not a
+      substitute for a clinician's opinion.
+    </p>
+  </details>
+
+  <details>
+    <summary>I lost my phone. Can I get my photos back?</summary>
+    <p>
+      Only if they were in your device backup — which they are by default, unless
+      you turned on <em>Keep photos out of iCloud backup</em>. Prior holds no
+      copy of anything, so there is nothing we can restore for you.
+    </p>
+  </details>
+
+  <details>
+    <summary>Reminders aren't arriving.</summary>
+    <p>
+      Check iOS Settings → Notifications → Prior is allowed. Reminders are timed
+      from your <em>last photo</em>, not a fixed date, so taking a photo early
+      moves the next one.
+    </p>
+  </details>
+
+  <h2>Suggestions</h2>
+  <p>
+    Feature requests are genuinely welcome and get read. Settings → Support →
+    Suggest a feature opens a pre-filled email with your version and device
+    already attached.
+  </p>
+
+  <footer>
+    <a href="privacy.html">Privacy policy</a><br>
+    Prior measures change between photographs. It does not diagnose anything and
+    is not a substitute for a clinician's opinion.
+  </footer>
+</main>
+</body>
+</html>
