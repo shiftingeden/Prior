@@ -42,12 +42,14 @@
 <body>
 <main>
   <h1>Privacy Policy</h1>
-  <p class="sub">Prior — Then &amp; Now · Last updated 2 August 2026</p>
+  <p class="sub">Prior — Then &amp; Now · Last updated 27 August 2026</p>
 
   <p class="lede">
-    Prior collects nothing. It has no account, no server, and no networking code
-    of any kind. Your photos are stored encrypted on your device and are never
-    transmitted anywhere.
+    Prior transmits nothing. It has no account, no server, and no networking
+    code of any kind, so nothing you do in it ever reaches us or anyone else.
+    Your photos are stored encrypted on your device — and this page describes
+    exactly what the app computes and stores there, including the face data
+    covered below.
   </p>
 
   <h2>What Prior stores</h2>
@@ -97,6 +99,34 @@
     model reads text, not images. This is off unless you switch it on.
   </p>
 
+  <h2>Face data</h2>
+  <p>
+    Prior looks at faces in order to line photographs up. Apple asks every app
+    that touches face data to answer the same questions, so here they are,
+    plainly.
+  </p>
+  <ul>
+    <li><strong>What is collected</strong> — facial landmark coordinates, such
+      as the positions of your eyes, and facial measurements derived from them.
+      They are computed on your device by Apple's Vision framework.</li>
+    <li><strong>Why</strong> — to align photographs of the same area over time,
+      and to guide your pose live in the camera so a new photo matches your
+      baseline.</li>
+    <li><strong>Where it is stored</strong> — on your device only, encrypted at
+      rest, alongside the photograph it describes. Like everything else Prior
+      stores, it is excluded from your iCloud backup by default.</li>
+    <li><strong>Who it is shared with</strong> — no one. There are no third
+      parties, and the app contains no networking code to share it with.</li>
+    <li><strong>How long it is kept</strong> — as long as the photograph.
+      Delete the photo, the area, or the app, and the face data is deleted with
+      it.</li>
+  </ul>
+  <p>
+    Prior does not use TrueDepth or ARKit. It uses only the standard camera and
+    Apple's 2D Vision requests — no depth map or 3D scan of your face is ever
+    captured.
+  </p>
+
   <h2>Backups</h2>
   <p>
     By default your photographs are <strong>excluded</strong> from your device
@@ -117,7 +147,7 @@
 
   <h2>Children</h2>
   <p>
-    Prior is not directed at children and collects no data from anyone.
+    Prior is not directed at children and transmits no data from anyone.
   </p>
 
   <h2>Changes</h2>
